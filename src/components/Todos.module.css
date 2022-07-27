@@ -1,0 +1,29 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid #e6e6e6;
+}
+
+.toggle_all {
+  position: absolute;
+  top: -57px;
+  left: -5px;
+  font-size: 24px;
+  color: #d9d9d9;
+  padding: 10px 27px 10px 27px;
+  transform: rotate(90deg);
+}
+
+.toggle_all.all_selected {
+  color: #737373;
+}
